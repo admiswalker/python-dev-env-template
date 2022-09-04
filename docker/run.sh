@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 docker run \
        -u `id -u`:`id -g` \
        -v /etc/group:/etc/group:ro \
